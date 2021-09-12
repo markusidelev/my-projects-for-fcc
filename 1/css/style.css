@@ -1,4 +1,32 @@
-* {
-  color: green; }
+html {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 10px; }
+
+body {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 0; }
+
+main {
+  background-color: #DDDDDD;
+  margin: 15px 5px;
+  padding: 15px;
+  border-radius: 20px; }
+
+h1 {
+  font-size: 4rem; }
+
+#img-div {
+  background: white;
+  padding: 15px 30px;
+  border-radius: 20px; }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
