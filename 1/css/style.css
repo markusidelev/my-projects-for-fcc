@@ -103,13 +103,18 @@ tribute-info {
   text-align: start; }
 
 .quote-block {
-  margin: auto;
+  margin: 60px auto;
   max-width: 70%;
   font-style: italic; }
 
 .quote-item p {
   font-size: 1.2em;
   margin: 5px auto; }
+
+.sources-block {
+  margin: 60px auto; }
+  .sources-block p {
+    line-height: 1; }
 
 footer {
   margin: 0 auto;
