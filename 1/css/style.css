@@ -1,6 +1,7 @@
 html {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 10px; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  box-sizing: border-box; }
 
 body {
   text-align: center;
@@ -15,18 +16,53 @@ main {
   padding: 15px;
   border-radius: 20px; }
 
+header {
+  position: relative; }
+
 h1 {
   font-size: 4rem; }
 
 #img-div {
   background: white;
   padding: 15px 30px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  max-width: 90em;
+  margin: auto; }
 
 img {
   max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto; }
+
+#img-caption {
+  margin: 15px; }
+  #img-caption i {
+    font-size: 1.2rem; }
+
+.timeline-list {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  max-width: 85em;
+  padding: 0; }
+  @media (min-width: 1000px) {
+    .timeline-list {
+      max-width: 900px; } }
+
+.timeline-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+
+.timeline-year {
+  width: 10em;
+  font-weight: bold;
+  border: 3px solid #111111;
+  margin-right: 5em; }
+
+.timeline-text {
+  width: 60em;
+  text-align: start; }
 
 /*# sourceMappingURL=style.css.map */

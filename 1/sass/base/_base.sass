@@ -4,6 +4,7 @@
 html
     @include main-font
     font-size: 10px
+    box-sizing: border-box
 
 body
     text-align: center
@@ -19,7 +20,9 @@ main
     padding: 15px
     border-radius: 20px
 
-
+header
+    position: relative
+    // text-align: center
 // h1, h2, h3
 //     color: $dark-silver
 
@@ -30,6 +33,8 @@ h1
     background: white
     padding: 15px 30px
     border-radius: 20px
+    max-width: 90em
+    margin: auto
 
 
 img
@@ -38,4 +43,35 @@ img
     height: auto
     margin: 0 auto
     // max-height: 50vw
+    
+#img-caption
+    margin: 15px
+    i
+        font-size: 1.2rem
+
+.timeline-list
+    margin: 0 auto
+    list-style: none
+    position: relative
+    max-width: 85em
+    padding: 0
+    
+    @media (min-width: 1000px) 
+        max-width: 900px
+        
+        
+.timeline-item
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+
+.timeline-year
+    width: 10em
+    font-weight: bold
+    border: 3px solid $black
+    margin-right: 5em
+    
+.timeline-text
+    width: 60em
+    text-align: start
     
