@@ -55,7 +55,7 @@ tribute-info {
   .timeline-list::before {
     box-sizing: border-box;
     content: "";
-    height: 95%;
+    height: 94%;
     background: transparent;
     display: block;
     position: absolute;
@@ -94,5 +94,15 @@ tribute-info {
 .timeline-text {
   width: 60em;
   text-align: start; }
+
+.quote-block {
+  margin: auto;
+  max-width: 70%;
+  font-style: italic; }
+
+.quote-item p {
+  font-size: 1.2em;
+  text-align: left;
+  margin: 5px auto; }
 
 /*# sourceMappingURL=style.css.map */
