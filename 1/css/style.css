@@ -49,17 +49,42 @@ img {
   @media (min-width: 1000px) {
     .timeline-list {
       max-width: 900px; } }
+  .timeline-list::before {
+    box-sizing: border-box;
+    content: "";
+    height: 100%;
+    background: transparent;
+    display: block;
+    position: absolute;
+    border-left: 5px solid #001F3F;
+    top: 16px;
+    left: 150px; }
 
 .timeline-item {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative;
+  box-sizing: content-box; }
 
 .timeline-year {
-  width: 10em;
+  min-width: 150px;
   font-weight: bold;
-  border: 3px solid #111111;
-  margin-right: 5em; }
+  background-color: #001F3F;
+  color: #DDDDDD;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 4em;
+  height: 100%; }
+  .timeline-year::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 16px solid #001F3F;
+    position: absolute;
+    left: 155px;
+    z-index: 999; }
 
 .timeline-text {
   width: 60em;

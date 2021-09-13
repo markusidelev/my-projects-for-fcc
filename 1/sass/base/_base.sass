@@ -1,5 +1,4 @@
-// @include SegoeUI
-// @include OpenSans
+
 
 html
     @include main-font
@@ -58,20 +57,57 @@ img
     
     @media (min-width: 1000px) 
         max-width: 900px
-        
-        
+
+    &::before    
+        box-sizing: border-box
+        content: ''
+        height: 100%
+        // vertical-align: middle
+        background: transparent
+        display: block
+        position: absolute
+        border-left: 5px solid $navy
+        top: 16px
+        left: 150px
+
 .timeline-item
     display: flex
     flex-wrap: nowrap
     justify-content: space-between
+    position: relative
+    box-sizing: content-box
 
 .timeline-year
-    width: 10em
+    min-width: 150px
     font-weight: bold
-    border: 3px solid $black
-    margin-right: 5em
+    // border: 1px solid $black
+    // border: 1px solid transparent
+    background-color: $navy
+    color: $silver 
+    border-radius: 10px 0px 0px 10px
+    margin-right: 4em
+    height: 100%
+
+    &::before
+        content: ''
+        width: 0
+        height: 0
+        border-top: 12px solid transparent
+        border-bottom: 12px solid transparent
+        border-left: 16px solid $navy
+        position: absolute
+        // top: 1rem
+        left: 155px
+        z-index: 999
+        
+
     
 .timeline-text
     width: 60em
     text-align: start
     
+// COLOR SHORTCUTS
+// $silver: #DDDDDD
+// $black: #111111
+// $dark-silver: #333
+// $navy: #001F3F
