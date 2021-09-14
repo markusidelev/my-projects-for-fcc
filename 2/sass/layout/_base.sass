@@ -9,22 +9,39 @@ body
     text-align: center
     font-size: 1.6rem
     line-height: 1.5
-    // color: $dark-silver
+    color: $dark-silver
     margin: 0
+    
 
+body::before 
+    content: ''
+    position: fixed
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    z-index: -1
+    background: var(--color-darkblue)
+    background-image: url(../img/phb.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: right
 
+ 
 main
     // background-color: $silver
+    margin: 0 15%
+    background: $bg-red
     // margin: 15px 5px
     // padding: 15px
     // border-radius: 20px
 
 a
-    // color: $blue
+    color: $grey
     // &:visited
-    //     color: $navy
-    // &:hover
-    //     color: $teal
+        // color: $navy
+    &:hover
+        color: #FFFFFF
         
 
 // COLOR SHORTCUTS
