@@ -1,0 +1,86 @@
+HEADER
+Dungeon & Dragons Survey Form
+
+UNDER HEADER
+It can help your DM to run your games better!
+
+
+background-image
+
+img/PBB.jpg
+
+
+FORM
+
+
+    BASE
+name
+What is your name?
+
+email
+How to contact you?
+
+age (optional)
+How old are you?
+
+    dropdown 
+What is your role in D&D? 
+    Dungeon Master
+    Player
+    Viewer
+    Game developer
+
+    radio
+Do you like current D&D 5th edition?
+    Definitely
+    Not realy
+    Hate it
+
+
+    dropdown
+What is your favorite D&D edition?
+    Original Dungeons & Dragons
+    Advanced Dungeons & Dragons
+    Advanced Dungeons & Dragons 2nd Edition
+    Dungeons & Dragons 3rd edition
+    Dungeons & Dragons 3.5 edition
+    Dungeons & Dragons 4th edition
+    Dungeons & Dragons 5th edition
+
+    checkbox
+What D&D classes do you like? (Select all that apply)
+    Artificer
+    Barbarian
+    Bard
+    Cleric
+    Druid
+    Fighter
+    Monk
+    Paladin
+    Ranger
+    Rogue
+    Sorcerer
+    Warlock
+    Wizard
+
+
+TEXFORM
+    What would you like to see in future expentions of D&D?
+
+    Tell us, don't be shy) 
+
+SUBMIT BUTTON
+    Trow a Fireball (or just submit)
+
+SOURCES
+
+photo Tyler-Jacobson for Wizards of the Coast LLC 
+
+
+
+
+FOOTER
+markusidelev/danil sidelev 2021 for freecode
+
+
+STYLES 
