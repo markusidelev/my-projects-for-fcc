@@ -36,23 +36,155 @@
 
         <section class="form-section">
 
-            <form action="survey-form">
+            <form id="survey-form">
 
                 <div class="form-group">
-                    <label for="name" id="name-label">Name</label>
-                    <input type="text" name="name" id="name" placeholder="What is your name?" required />
+                    <label for="#name" id="name-label">Name</label>
+                    <input type="text" name="name" id="name" placeholder="What is your name?" class="form-control" required />
                 </div>
 
+                
                 <div class="form-group">
-                    <label for="email" id="mail-label">Email</label>
-                    <input type="email" name="email" id="email" class="form-control"placeholder="How to mail you?" >
+                    <label for="#email" id="mail-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="How to mail you?"/>
                 </div>
 
+
                 <div class="form-group">
-                    <label for="number" id="number-label">Age<label>
+                    <label for="#number" id="number-label">Age</label>
+                    <input type="number" name="age" id="number" class="form-control" placeholder="Age"/>
 
-                    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"/>
+                </div>
 
+
+                <div class="form-group">
+                    <label for="#role" id="dropdown-name-label">What is your role in D&D? </label>
+                    <select id="dropdown dropdown-role" name="role" class="form-control" required>
+                        <option disabled selected value>Select your role</option>
+                        <option value="dm">Dungeon Master</option>
+                        <option value="player">Player</option>
+                        <option value="viewer">Viewer</option>
+                        <option value="gamedev">Game Developer</option>
+                        
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <p>Do you like current D&D 5th edition?</p>
+
+                    <label>
+                        <input type="radio" name="curent-edition" value="definitely" class="input-radio" checked>
+                        Definitely
+                        
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="curent-edition" value="not-realy" class="input-radio">
+                        Definitely
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="curent-edition" value="hate" class="input-radio">
+                        Hate it
+                    </label>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="#edition" id="dropdown-edition-label">What is your favorite D&D edition?</label>
+                    <select id="dropdown dropdown-edition" name="edition" class="form-control" required>
+                        <option disabled selected value>Select edition</option>
+                        <option value="odnd">Original Dungeons & Dragons</option>
+                        <option value="adnd">Advanced Dungeons & Dragons</option>
+                        <option value="adnd2">Advanced Dungeons & Dragons 2nd edition</option>
+                        <option value="adnd3">Dungeons & Dragons 3rd edition</option>
+                        <option value="dnd3.5">Dungeons & Dragons 3.5 edition</option>
+                        <option value="dnd4">Dungeons & Dragons 4th edition</option>
+                        <option value="dnd5">Dungeons & Dragons 5th edition</option>
+                        
+                    </select>
+                        
+                </div>
+
+
+                <div class="form-group classes-group">
+                    <p>
+                        What D&D classes do you like?
+                      <span class="clue">(Check all that apply)</span>
+                    </p>
+              
+                    <label>
+                      <input name="classes" value="artificer" type="checkbox" class="input-checkbox"/>Artificer
+                    </label>
+
+                    <label>
+                        <input name="classes" value="barbarian" type="checkbox" class="input-checkbox"/>Barbarian
+                    </label>
+
+                    <label>
+                        <input name="classes" value="bard" type="checkbox" class="input-checkbox"/>Bard
+                    </label>
+
+                    <label>
+                        <input name="classes" value="Cleric" type="checkbox" class="input-checkbox"/>Cleric
+                    </label>
+
+                    <label>
+                        <input name="classes" value="druid" type="checkbox" class="input-checkbox"/>Druid
+                    </label>
+
+                    <label>
+                        <input name="classes" value="fighter" type="checkbox" class="input-checkbox"/>Fighter
+                    </label>
+
+                    <label>
+                        <input name="classes" value="monk" type="checkbox" class="input-checkbox"/>Monk
+                    </label>
+
+                    <label>
+                        <input name="classes" value="paladin" type="checkbox" class="input-checkbox"/>Paladin
+                    </label>   
+
+                    <label>
+                        <input name="classes" value="ranger" type="checkbox" class="input-checkbox"/>Ranger
+                    </label>
+
+                    <label>
+                        <input name="classes" value="rogue" type="checkbox" class="input-checkbox"/>Rogue
+                    </label>
+
+                    <label>
+                        <input name="classes" value="sorcerer" type="checkbox" class="input-checkbox"/>Sorcerer
+                    </label>
+
+                    <label>
+                        <input name="classes" value="warlock" type="checkbox" class="input-checkbox"/>Warlock
+                    </label>
+
+                    <label>
+                        <input name="classes" value="Wizard" type="checkbox" class="input-checkbox"/>Wizard
+                    </label>
+                    
+                </div>  
+                
+                
+                <div class="form-group ">
+                    <p>Any comments or suggestions?</p>
+                    <textarea
+                      id="suggestions"
+                      class="input-textarea"
+                      name="suggestions"
+                      placeholder="Tell us, don't be shy =)"
+                    ></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                      Submit
+                    </button>
                 </div>
 
             </form>
@@ -63,38 +195,37 @@
 
 
 
-        <section class="sources-block
-        ">
-            <h3>
+        <section class="sources-block">
+            <!-- <h3>
                 You can read more about World War I on this <a href="https://en.wikipedia.org/wiki/World_War_I"
                     id="tribute-link" target="_blank">Wikipedia page</a>.
-            </h3>
+            </h3> -->
 
-            <p>
+            <!-- <p>
                 Timeline taken from Britannica <a href=" https://www.britannica.com/list/timeline-of-world-war-i"
                     target="_blank"><i>Britannica</i></a>
-            </p>
+            </p> -->
 
             <p>
-                Photo taken from <a href="" target="_blank"><i>The Atlantic</i></a>
+                Image by <a href="" target="_blank"><i>Tyler Jacobson</i></a> for Wizards of the Coast LLC 
             </p>
 
-            <p>
+            <!-- <p>
                 Quote taken from <a
                     href="https://www.usatoday.com/story/news/world/2017/04/04/world-war-i-quotes/100031552/"
                     target="_blank"><i>USA Today</i></a>
-            </p>
+            </p> -->
 
 
 
         </section>
 
+        
         <footer>
 
             <a href="https://github.com/markusidelev" target="_blank">markusidelev/danil sidelev 2021 for
                 freecodecamp</a>
         </footer>
-
 
     </main>
 

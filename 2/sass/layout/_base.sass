@@ -2,14 +2,13 @@
 
 html
     @include main-font
-    font-size: 10px
+    // font-size: 10px
     box-sizing: border-box
 
 body
     text-align: center
-    font-size: 1.6rem
     line-height: 1.5
-    color: $dark-silver
+    color: $silver
     margin: 0
     
 
@@ -29,27 +28,16 @@ body::before
 
  
 main
-    // background-color: $silver
     margin: 0 15%
-    background: $bg-red
-    // margin: 15px 5px
-    // padding: 15px
-    // border-radius: 20px
+    background: $bg-red    
+    @media (max-width: 900px) 
+        margin: 0 5%
 
 a
     color: $grey
-    // &:visited
-        // color: $navy
+    &:visited
+        color: $dark-silver
     &:hover
         color: #FFFFFF
         
 
-// COLOR SHORTCUTS
-// $silver: #DDDDDD
-// $black: #111111
-// $dark-silver: #333
-// $navy: #001F3F
-
-// colors for links
-// $teal: #39CCCC
-// $blue: #0074D9
