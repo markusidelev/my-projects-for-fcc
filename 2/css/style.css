@@ -32,48 +32,61 @@ main {
 a {
   color: #aaaaaa; }
   a:visited {
-    color: #7e7e7e; }
+    color: #aaaaaa; }
   a:hover {
     color: #FFFFFF; }
 
 .form-section {
   text-align: center; }
 
-#survey-form {
+.survey-form {
   margin: 0 15%;
   font-size: 30px; }
   @media (max-width: 900px) {
-    #survey-form {
+    .survey-form {
       margin: 0 5%; } }
 
 .form-group {
   display: flex;
   flex-direction: column;
   text-align: start;
-  padding: 10px 30px; }
+  padding: 10px 30px;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem; }
+  .form-group p {
+    margin: 0 auto; }
 
-input {
-  height: 30px; }
+.form-control {
+  font-size: 20px;
+  height: 30px;
+  color: #414040; }
 
-select {
+#dropdown {
   height: 36px; }
 
-p {
-  margin: 10px 0 0; }
+.input-radio, .input-checkbox {
+  font-size: 15px; }
 
-input, option, select, textarea {
-  margin: 10px;
+.current-edition label, .classes-group label {
   font-size: 20px;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  background-color: #fff; }
+  margin: 5px 0; }
 
-dropdown {
-  height: 30px; }
+.input-textarea {
+  min-height: 120px;
+  margin-top: 10px;
+  width: 100%;
+  resize: vertical; }
 
-.classes-group label {
-  font-size: 20px;
-  height: 30px; }
+button {
+  color: #dddddd;
+  font-size: 30px;
+  background-color: #4e1310;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border: 2px solid #dddddd; }
+  button:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1); }
 
 header {
   position: relative;

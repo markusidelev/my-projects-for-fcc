@@ -3,7 +3,7 @@
     // margin: 0 auto
     // height: 100px
 
-#survey-form
+.survey-form
     margin: 0 15%
     font-size: 30px
     @media (max-width: 900px) 
@@ -15,32 +15,48 @@
     flex-direction: column
     text-align: start
     padding: 10px 30px
+    margin: 0 auto 1.25rem auto
+    padding: 0.25rem
+    p
+        margin: 0 auto
     
 
-input
+.form-control
+    font-size: 20px
     height: 30px
+    color: $dark-silver
 
-select
+#dropdown
     height: 36px
 
-option  
-        // color: $silver
-p
-    margin: 10px 0 0
 
-input, option, select, textarea
-    margin: 10px
+.input-radio, .input-checkbox
+    font-size: 15px
+
+.current-edition label, .classes-group label
     font-size: 20px
-    border-radius: 5px
-    border: 1px solid #fff
-    background-color: #fff
-   
-dropdown
-    height: 30px
+    margin: 5px 0
 
-.classes-group
-    label
-        font-size: 20px
-        // line-height: 1
-        height: 30px
     
+.input-textarea
+    min-height: 120px
+    margin-top: 10px
+    width: 100%  
+    resize: vertical
+
+button
+    color: $silver
+    font-size: 30px
+    background-color: $red
+    // width: 50px
+    margin: 0 auto
+    padding: 15px 20px 
+    border: 2px solid $silver
+    &:hover
+        transition-duration: 0.5s
+        transform: scale(1.1)
+
+
+
+
+
