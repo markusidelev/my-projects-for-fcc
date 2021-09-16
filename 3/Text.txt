@@ -1,12 +1,12 @@
 HEADER
-Generic iPad Seller
+Generic Tablet Seller
 
 LOGO
 https://fontawesome.com/v5.15/icons/apple-alt?style=solid
 
 NAV
 Features 
-How it Looks
+Announcement
 Pricing
 
 
@@ -15,32 +15,42 @@ Subscribe to know lates sales and deals!
 
 FEATURES
 
-https://fontawesome.com/v5.15/icons/microchip?style=solid
-    HUGE POWER
-Delivering up to 40 percent faster CPU performance and, with the Apple Neural Engine, up to 2x faster machine learning. So you can blaze through your workday, studio session, and more.
-
 https://fontawesome.com/v5.15/icons/tablet-alt?style=solid
     AMAZING DISPLAY
 The 8.3-inch Liquid Retina display features True Tone, P3 wide color, and ultralow reflectivity, making text sharp and colors vivid, wherever you are.
 
+https://fontawesome.com/v5.15/icons/microchip?style=solid
+    HUGE POWER
+Delivering up to 40 percent faster CPU performance and, with the Apple Neural Engine, up to 2x faster machine learning. So you can blaze through your workday, studio session, and more.
 
+https://fontawesome.com/v5.15/icons/tablet?style=solid
     STUNING QUALITY
 iPad mini is meticulously designed to be absolutely beautiful. An all-new enclosure features a new edge-to-edge screen, along with narrow borders and elegant rounded corners.
 
 
+VIDEO (watch the announcement)
+    Watch the Announcement
+https://www.youtube.com/watch?v=gdeqbg8QFJM
 
-
-
+PRICING
+ iPad mini wifi 64gb
+    499
+ iPad mini wifi 256gb
+    649
+ iPad mini wifi + Celluar 64gb
+    649
+ iPad mini wifi + Celluar 256gb
+    799
 
 
 SOURCES
 
-photo Tyler-Jacobson for Wizards of the Coast LLC 
-
-
+Images by Apple
+Icons by FontAwesome
 
 
 FOOTER
+    FOOTER-NAV
 markusidelev/danil sidelev 2021 for freecode
 
 

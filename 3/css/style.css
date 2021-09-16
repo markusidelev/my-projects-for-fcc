@@ -5,22 +5,10 @@ html {
 body {
   text-align: center;
   line-height: 1.5;
-  color: #dddddd;
   margin: 0; }
 
-main {
-  margin: 0 15%;
-  background: rgba(78, 19, 16, 0.5); }
-  @media (max-width: 900px) {
-    main {
-      margin: 0 5%; } }
-
-a {
-  color: #aaaaaa; }
-  a:visited {
-    color: #aaaaaa; }
-  a:hover {
-    color: #FFFFFF; }
+a:hover {
+  color: #FFFFFF; }
 
 header {
   position: relative;
@@ -41,8 +29,7 @@ h1 {
 footer {
   margin: 0 auto;
   padding: 50px;
-  max-width: 50em;
-  background-color: #4e1310; }
+  max-width: 50em; }
   footer a {
     font-size: 2em;
     line-height: 1; }
