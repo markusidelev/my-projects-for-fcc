@@ -1,0 +1,47 @@
+HEADER
+Generic iPad Seller
+
+LOGO
+https://fontawesome.com/v5.15/icons/apple-alt?style=solid
+
+NAV
+Features 
+How it Looks
+Pricing
+
+
+EMAIL SUBSCRIBE
+Subscribe to know lates sales and deals!
+
+FEATURES
+
+https://fontawesome.com/v5.15/icons/microchip?style=solid
+    HUGE POWER
+Delivering up to 40 percent faster CPU performance and, with the Apple Neural Engine, up to 2x faster machine learning. So you can blaze through your workday, studio session, and more.
+
+https://fontawesome.com/v5.15/icons/tablet-alt?style=solid
+    AMAZING DISPLAY
+The 8.3-inch Liquid Retina display features True Tone, P3 wide color, and ultralow reflectivity, making text sharp and colors vivid, wherever you are.
+
+
+    STUNING QUALITY
+iPad mini is meticulously designed to be absolutely beautiful. An all-new enclosure features a new edge-to-edge screen, along with narrow borders and elegant rounded corners.
+
+
+
+
+
+
+
+SOURCES
+
+photo Tyler-Jacobson for Wizards of the Coast LLC 
+
+
+
+
+FOOTER
+markusidelev/danil sidelev 2021 for freecode
+
+
+STYLES 
