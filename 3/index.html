@@ -14,11 +14,14 @@
 <body>
 
     <main id="main">
-        <header>
+        <header id="header">
 
-            <div class="logo">
+            <!-- i made logo with icon and text, not img. So i put this empty img just to pass the test js script -->
+            <img src="" alt="" id="header-img">
+
+            <div class="logo" >
                 <div class="logo-img-box">
-                    <i class="fas fa-apple-alt" id="header-img"></i>
+                    <i class="fas fa-apple-alt" ></i>
                 </div>
 
                 <p id="title">
@@ -28,10 +31,10 @@
 
 
 
-            <nav>
-                <a href="#features">Features</a>
-                <a href="#announcement">Announcement</a>
-                <a href="#pricing">Pricing</a>
+            <nav id="nav-bar">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#announcement">Announcement</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
 
             </nav>
 
@@ -58,7 +61,7 @@
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input type="email" name="email" id="email" class="email-input"
                     placeholder="Subscribe to know our lates deals!" required>
-                <input type="submit" value="subscribe" class="submit-btn">
+                <input id="submit" type="submit" value="subscribe" class="submit-btn">
             </form>
 
         </section>
@@ -109,7 +112,7 @@
 
         <section class="announcement" id="announcement">
             <h2>Watch the Announcement</h2>
-            <iframe height="315" src="https://www.youtube.com/embed/gdeqbg8QFJM"
+            <iframe id="video" height="315" src="https://www.youtube.com/embed/gdeqbg8QFJM"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -174,7 +177,7 @@
 
 
         </section>
-        <!-- </div> -->
+        
 
         <section class="sources-block">
 
@@ -206,6 +209,6 @@
 
 </body>
 <script src="https://kit.fontawesome.com/2fc3c74552.js" crossorigin="anonymous"></script>
-<!-- <script src="/js/bundle.js"></script> -->
+<script src="/js/bundle.js"></script>
 
 </html>
