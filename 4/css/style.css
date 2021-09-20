@@ -60,6 +60,11 @@ a.nav-link {
   cursor: pointer;
   display: block; }
 
+.author a {
+  color: #111111;
+  text-decoration: none;
+  padding: 10px 20px; }
+
 #main-doc {
   position: absolute;
   margin-left: 310px;
