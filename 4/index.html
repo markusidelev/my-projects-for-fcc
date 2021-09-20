@@ -67,20 +67,26 @@
             </a>
         </li>
 
-        
+
 
     </nav>
 
 
 
     <main id="main-doc">
-       
+
         <section class="main-section" id="#Introduction">
             <header>Introduction</header>
             <article>
-                <p>
+                <p>While many guides on the internet attempt to teach HTML using a lot of mind-boggling theory, this
+                    tutorial will instead focus on giving you the practical skills to build your first site.</p>
 
-                </p>
+                <p>The aim is to show you ‘how’ to create your first web page without spending the entire tutorial
+                    focusing too much on the “why.”</p>
+
+                <p>By the end of this tutorial, you will have the know-how to create a basic website and we hope that
+                    this will inspire you to delve further into the world of HTML using our follow-on guides.</p>
+
             </article>
 
         </section>
@@ -89,9 +95,16 @@
         <section class="main-section" id="#What_is_HTML?">
             <header>What is HTML?</header>
             <article>
-                <p>
+                <p>Okay, so this is the only bit of mandatory theory. In order to begin to write HTML, it helps if you
+                    know what you are writing.</p>
 
-                </p>
+                <p>HTML is the language in which most websites are written. HTML is used to create pages and make them
+                    functional.</p>
+
+                <p>The code used to make them visually appealing is known as CSS and we shall focus on this in a later
+                    tutorial. For now, we will focus on teaching you how to build rather than design.</p>
+
+
             </article>
 
         </section>
@@ -100,9 +113,14 @@
         <section class="main-section" id="#The_History_of_HTML">
             <header>The History of HTML</header>
             <article>
-                <p>
+                <p>HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989. It stands
+                    for Hyper Text Markup Language.</p>
 
-                </p>
+                <p>Hypertext means that the document contains links that allow the reader to jump to other places in the
+                    document or to another document altogether. The latest version is known as HTML5.</p>
+
+                <p>A Markup Language is a way that computers speak to each other to control how text is processed and
+                    presented. To do this HTML uses two things: tags and attributes.</p>
             </article>
 
         </section>
@@ -111,9 +129,10 @@
         <section class="main-section" id="#What_are_Tags_and_Attributes?">
             <header>What are Tags and Attributes?</header>
             <article>
-                <p>
+                <p>Tags and attributes are the basis of HTML.</p>
 
-                </p>
+                <p>They work together but perform different functions – it is worth investing 2 minutes in
+                    differentiating the two.</p>
             </article>
 
         </section>
@@ -122,9 +141,12 @@
         <section class="main-section" id="#What_Are_HTML_Tags?">
             <header>What Are HTML Tags?</header>
             <article>
-                <p>
+                <p>Tags are used to mark up the start of an HTML element and they are usually enclosed in angle
+                    brackets. An example of a tag is: <code>&lth1&gt</code> .</p>
 
-                </p>
+                <p>Most tags must be opened <code>&lth1&gt</code> and closed <code>&lt/h1&gt</code> in order to
+                    function.</p>
+
             </article>
 
         </section>
@@ -133,8 +155,14 @@
         <section class="main-section" id="#What_are_HTML_Attributes?">
             <header>What are HTML Attributes?</header>
             <article>
-                <p>
-
+                <p>Attributes contain additional pieces of information. Attributes take the form of an opening tag and
+                    additional info is placed inside.
+                </p>
+                <p>An example of an attribute is:</p>
+                <code>
+                    &ltimg src="mydog.jpg" alt="A photo of my dog."&gt
+                </code>
+                <p>In this instance, the image source (src) and the alt text (alt) are attributes of the &ltimg&gt tag.
                 </p>
             </article>
 
@@ -144,9 +172,24 @@
         <section class="main-section" id="#Golden_Rules_To_Remember">
             <header>Golden Rules To Remember</header>
             <article>
-                <p>
+                <ol>
 
-                </p>
+                    <li>
+                        <p>The vast majority of tags must be opened (&lttag&gt) and closed (&lt/tag&gt) with the element
+                            information such as a title or text resting between the tags. </p>
+                    </li>
+                    <li>
+                        <p>When using multiple tags, the tags must be closed in the order in which they were opened. For
+                            example:</p>
+                        <code>
+                            &ltstrong&gt&ltem&gtThis is really important!&lt/em&gt&lt/strong&gt
+                        </code>
+                    </li>
+
+                </ol>
+
+
+
             </article>
 
         </section>
@@ -156,8 +199,26 @@
             <header>Basic Construction of an HTML Page</header>
             <article>
                 <p>
-
+                    These tags should be placed underneath each other at the top of every HTML page that you create.
                 </p>
+
+                <ul>
+                    <li>
+                        <p><code>&lt!DOCTYPE html&gt</code> — This tag specifies the language you will write on the
+                            page. In this case, the language is HTML 5.</p>
+                    </li>
+                    <li>
+                        <p><code>&lthtml&gt</code> — This tag signals that from here on we are going to write in HTML
+                            code.</p>
+                    </li>
+                    <li>
+                        <p><code>&lthead&gt</code> — This is where all the metadata for the page goes — stuff mostly
+                            meant for search engines and other computer programs.</p>
+                    </li>
+                    <li>
+                        <p><code>&ltbody&gt</code> — This is where the content of the page goes.</p>
+                    </li>
+                </ul>
             </article>
 
         </section>
@@ -169,6 +230,15 @@
                 <p>
 
                 </p>
+                <ul>
+                    <li>
+                        <p><code>&lttitle&gt</code>This is where we insert the page name as it will appear at the top of
+                            the browser window or tab.</p>
+                    </li>
+                    <li>
+                        <p><code>&ltmeta&gt</code></p>
+                    </li>
+                </ul>
             </article>
 
         </section>
