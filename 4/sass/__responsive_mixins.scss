@@ -1,11 +1,11 @@
 // // here we will create our responsive mixins / funnctions 
 
-// // mobile
-// @mixin  responsive_mobile() {
-//     @media only screen and (max-width: 767px) {
-//         @content;
-//     }
-// }
+// mobile
+@mixin  responsive_mobile() {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
 
 // // tablet
 // @mixin  responsive_tab() {

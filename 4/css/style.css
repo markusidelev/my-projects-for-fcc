@@ -36,6 +36,9 @@ p {
 a {
   font-size: 2em; }
 
+li::marker {
+  font-size: 1.7em; }
+
 #navbar {
   position: fixed;
   min-width: 290px;
@@ -51,10 +54,20 @@ a {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0; }
+    @media only screen and (max-width: 767px) {
+      #navbar ul {
+        height: 245px; } }
   #navbar li {
     width: 100%;
     list-style: none;
     border-top: 1px solid #AAAAAA; }
+  @media only screen and (max-width: 767px) {
+    #navbar {
+      position: absolute;
+      width: 100%;
+      max-height: 350px;
+      z-index: 1;
+      border: 1px solid #AAAAAA; } }
 
 a.nav-link {
   color: #111111;
@@ -72,5 +85,29 @@ a.author {
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px; }
+  #main-doc section article {
+    margin: 20px;
+    color: #3d3d3d; }
+  @media only screen and (max-width: 767px) {
+    #main-doc {
+      position: relative;
+      margin-top: 350px;
+      margin-left: 0; } }
+
+code {
+  display: inline-block;
+  background-color: #DDDDDD;
+  font-size: 1rem; }
+
+#sources article {
+  text-align: center; }
+  #sources article p {
+    font-size: 1.7em; }
+    #sources article p a {
+      font-size: 1rem; }
+
+.author a {
+  font-size: 1.2rem;
+    font-size-color: #111111; }
 
 /*# sourceMappingURL=style.css.map */
