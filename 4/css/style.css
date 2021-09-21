@@ -47,7 +47,10 @@ a {
   border-color: #AAAAAA;
   background: #DDDDDD; }
   #navbar ul {
-    height: 90%; }
+    height: 78%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0; }
   #navbar li {
     width: 100%;
     list-style: none;
@@ -60,10 +63,9 @@ a.nav-link {
   cursor: pointer;
   display: block; }
 
-.author a {
-  color: #111111;
-  text-decoration: none;
-  padding: 10px 20px; }
+a.author {
+  text-decoration: underline;
+  font-weight: bold; }
 
 #main-doc {
   position: absolute;
