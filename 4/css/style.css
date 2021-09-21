@@ -49,6 +49,11 @@ li::marker {
   border-right: solid;
   border-color: #AAAAAA;
   background: #DDDDDD; }
+  #navbar header {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px; }
   #navbar ul {
     height: 78%;
     overflow-y: auto;
@@ -65,7 +70,7 @@ li::marker {
     #navbar {
       position: absolute;
       width: 100%;
-      max-height: 350px;
+      max-height: 335px;
       z-index: 1;
       border: 1px solid #AAAAAA; } }
 
@@ -91,7 +96,7 @@ a.author {
   @media only screen and (max-width: 767px) {
     #main-doc {
       position: relative;
-      margin-top: 350px;
+      margin-top: 330px;
       margin-left: 0; } }
 
 code {
@@ -102,12 +107,14 @@ code {
 #sources article {
   text-align: center; }
   #sources article p {
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    color: #111111; }
     #sources article p a {
+      color: #111111;
       font-size: 1rem; }
 
-.author a {
+a.author-link {
   font-size: 1.2rem;
-    font-size-color: #111111; }
+  color: #111111; }
 
 /*# sourceMappingURL=style.css.map */
