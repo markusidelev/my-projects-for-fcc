@@ -250,4 +250,25 @@ img {
 .contact-links a:hover {
   text-shadow: 3px 3px 2px #202020;
 }
+
+footer {
+  height: 100%;
+  background: #111111;
+  text-align: center;
+  padding: 50px;
+}
+
+footer a {
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background: #121FCF;
+  background: -webkit-gradient(linear, right top, left top, color-stop(66%, #3f5efb), to(#fc466b));
+  background: linear-gradient(to left, #3f5efb 66%, #fc466b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*# sourceMappingURL=style.css.map */
