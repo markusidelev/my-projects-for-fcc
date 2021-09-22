@@ -241,6 +241,7 @@ img {
   display: inline-block;
   text-decoration: none;
   padding: 1em 3em;
+  text-align: left;
 }
 
 .contact-links a i {
@@ -249,6 +250,13 @@ img {
 
 .contact-links a:hover {
   text-shadow: 3px 3px 2px #202020;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-links {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 footer {
