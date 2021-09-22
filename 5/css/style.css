@@ -40,6 +40,10 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 5em;
+}
+
 .nav {
   background-color: #B10DC9;
   position: fixed;
@@ -102,5 +106,148 @@ h1 {
 .welcome-section p.joke {
   font-size: 1.5em;
   font-style: italic;
+}
+
+.projects-section {
+  background: #001f3f;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.projects-section h2 {
+  margin: 0 auto 6rem auto;
+}
+
+img {
+  height: calc(100% - 4.35rem);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.project {
+  background: #0074D9;
+  -webkit-box-shadow: 4px 4px 27px 4px rgba(0, 0, 0, 0.89);
+          box-shadow: 4px 4px 27px 4px rgba(0, 0, 0, 0.89);
+  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.project:hover {
+  background: #0074d9;
+  background: linear-gradient(150deg, #0074d9 70%, #39cccc 100%);
+}
+
+.project-title {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 1rem 2rem;
+}
+
+.projects-section {
+  background: #001f3f;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.projects-section h2 {
+  margin: 0 auto 6rem auto;
+}
+
+img {
+  height: calc(100% - 4.35rem);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.project {
+  background: #0074D9;
+  -webkit-box-shadow: 4px 4px 27px 4px rgba(0, 0, 0, 0.89);
+          box-shadow: 4px 4px 27px 4px rgba(0, 0, 0, 0.89);
+  border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.project:hover {
+  background: #0074d9;
+  background: linear-gradient(150deg, #0074d9 70%, #39cccc 100%);
+}
+
+.project-title {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 1rem 2rem;
+}
+
+.contact-section {
+  background: #3d3d3d;
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #3f5efb;
+  background: linear-gradient(218deg, #3f5efb 66%, #fc466b 100%);
+}
+
+.contact-section p {
+  font-size: 1.5em;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: white;
+  font-size: 3em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 3em;
+}
+
+.contact-links a i {
+  margin-right: 5px;
+}
+
+.contact-links a:hover {
+  text-shadow: 3px 3px 2px #202020;
 }
 /*# sourceMappingURL=style.css.map */
